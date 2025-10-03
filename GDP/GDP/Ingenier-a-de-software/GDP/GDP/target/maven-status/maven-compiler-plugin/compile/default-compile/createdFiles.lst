@@ -1,0 +1,17 @@
+com\Gestor\GDP\api\dto\RegistroRequest$Subserie.class
+com\Gestor\GDP\api\dto\RegistroRequest.class
+com\Gestor\GDP\entity\Documento.class
+com\Gestor\GDP\api\dto\RegistroRequest$Clasificacion.class
+com\Gestor\GDP\api\dto\RegistroRequest$Serie.class
+com\Gestor\GDP\apicontroller\RegistroApiController.class
+com\Gestor\GDP\security\SecurityConfig.class
+com\Gestor\GDP\GdpApplication.class
+com\Gestor\GDP\api\dto\RegistroRequest$Paginacion.class
+com\Gestor\GDP\api\dto\RegistroRequest$Expediente.class
+com\Gestor\GDP\entity\Expediente.class
+com\Gestor\GDP\service\impl\RegistroServiceImpl.class
+com\Gestor\GDP\api\dto\RegistroRequest$Retencion.class
+com\Gestor\GDP\repository\DocumentoRepository.class
+com\Gestor\GDP\service\RegistroService.class
+com\Gestor\GDP\api\dto\RegistroRequest$Documento.class
+com\Gestor\GDP\repository\ExpedienteRepository.class
