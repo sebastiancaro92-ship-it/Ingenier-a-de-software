@@ -16,9 +16,10 @@ public class RegistroApiController {
     @Autowired
     private RegistroService registroService;
 
-    @PostMapping
-    public ResponseEntity<String> registrar(@RequestBody RegistroRequest request) {
-        // 1. Guardar Expediente
+@PostMapping
+public ResponseEntity<String> registrar(@RequestBody RegistroRequest request) {
+    try {
+        // 1️⃣ Crear y llenar el expediente
         Expediente expediente = new Expediente();
         expediente.setCodigo_expediente(request.getExpediente().getCodigo_expediente());
         expediente.setNombre_expediente(request.getExpediente().getNombre_expediente());
@@ -29,9 +30,10 @@ public class RegistroApiController {
         expediente.setFecha_creacion(request.getExpediente().getFecha_creacion());
         expediente.setFecha_cierre(request.getExpediente().getFecha_cierre());
 
+        // 2️⃣ Guardar expediente (aquí se valida si ya existe)
         Expediente expedienteGuardado = registroService.guardarExpediente(expediente);
 
-        // 2. Guardar Documento asociado
+        // 3️⃣ Crear y llenar documento
         Documento documento = new Documento();
         documento.setExpediente(expedienteGuardado);
         documento.setNombre(request.getDocumento().getNombre());
@@ -45,8 +47,17 @@ public class RegistroApiController {
         documento.setVersion(request.getDocumento().getVersion());
         documento.setEstado(request.getDocumento().getEstado());
 
+        // 4️⃣ Guardar documento (también valida duplicado)
         registroService.guardarDocumento(documento);
 
         return ResponseEntity.ok("Registro guardado correctamente en expediente y documento.");
+
+    } catch (IllegalArgumentException e) {
+        // Error controlado (duplicado)
+        return ResponseEntity.badRequest().body(e.getMessage());
+    } catch (Exception e) {
+        // Error inesperado
+        return ResponseEntity.internalServerError().body("Error al guardar el registro: " + e.getMessage());
     }
 }
+

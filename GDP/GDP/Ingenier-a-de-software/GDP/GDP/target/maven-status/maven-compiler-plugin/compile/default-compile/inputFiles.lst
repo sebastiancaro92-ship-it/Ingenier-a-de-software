@@ -1,10 +1,10 @@
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\GdpApplication.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\entity\Expediente.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\service\impl\RegistroServiceImpl.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\security\SecurityConfig.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\repository\ExpedienteRepository.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\apicontroller\RegistroApiController.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\repository\DocumentoRepository.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\api\dto\RegistroRequest.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\service\RegistroService.java
-E:\Github\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\entity\Documento.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\repository\DocumentoRepository.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\repository\ExpedienteRepository.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\api\dto\RegistroRequest.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\service\RegistroService.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\entity\Expediente.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\service\impl\RegistroServiceImpl.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\entity\Documento.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\GdpApplication.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\apicontroller\RegistroApiController.java
+C:\Users\acer\OneDrive - uniminuto.edu\Escritorio\Proyecto Gestión Documental\Ingenier-a-de-software\GDP\GDP\Ingenier-a-de-software\GDP\GDP\src\main\java\com\Gestor\GDP\security\SecurityConfig.java
