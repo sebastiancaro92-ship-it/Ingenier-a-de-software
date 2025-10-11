@@ -1,0 +1,24 @@
+<h3>Tabla de Expedientes</h3>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th>ID</th>
+      <th>Código del Expediente</th>
+      <th>Nombre del Expediente</th>
+      <th>Dependencia</th>
+      <th>Estado</th>
+      <th>Fecha Creación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let exp of listaDeExpedientes">
+      <td>{{ exp.id_expediente }}</td>
+      <td>{{ exp.codigo_expediente }}</td>
+      <td>{{ exp.nombre_expediente }}</td>
+      <td>{{ exp.dependencia }}</td>
+      <td>{{ exp.estado }}</td>
+      <td>{{ exp.fecha_creacion | date:'dd/MM/yyyy' }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,43 @@
+/* Estilo general para la tabla */
+table {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  border-collapse: collapse; /* Une los bordes de las celdas */
+  margin: 20px 0; /* Espacio arriba y abajo */
+  font-family: sans-serif;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el encabezado de la tabla */
+thead tr {
+  background-color: #8768d6; /* Un color de acento profesional */
+  color: #ffffff; /* Texto blanco */
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Estilo para todas las celdas (encabezado y cuerpo) */
+th, td {
+  padding: 12px 15px; /* Espaciado interno para que no se vea apretado */
+}
+    
+/* Estilo para las filas del cuerpo de la tabla */
+tbody tr {
+  border-bottom: 1px solid #dddddd; /* Línea separadora entre filas */
+}
+
+/* Color alterno para las filas (efecto cebra) */
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* Efecto al pasar el cursor sobre una fila */
+tbody tr:hover {
+  background-color: #f1f1f1;
+  color: #8768d6;
+  cursor: pointer;
+}
+
+/* Estilo para la última fila para que no tenga doble borde */
+tbody tr:last-of-type {
+  border-bottom: 2px solid #8768d6;
+}

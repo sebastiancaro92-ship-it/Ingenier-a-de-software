@@ -1,0 +1,23 @@
+<h3>Tabla de Documentos</h3>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead class="thead-dark"> <tr>
+      <th>ID</th>
+      <th>Nombre del Documento</th>
+      <th>Tipología</th>
+      <th>Formato</th>
+      <th>Estado</th>
+      <th>ID Expediente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let doc of listaDeDocumentos">
+      <td>{{ doc.id_documento }}</td>
+      <td>{{ doc.nombre }}</td>
+      <td>{{ doc.tipologia }}</td>
+      <td>{{ doc.formato }}</td>
+      <td>{{ doc.estado }}</td>
+      <td>{{ doc.expediente?.id_expediente }}</td>
+    </tr>
+  </tbody>
+</table>
